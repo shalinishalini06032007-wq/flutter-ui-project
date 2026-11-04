@@ -40,7 +40,6 @@ class AddMoney extends StatelessWidget {
            Expanded(
              child: Container(
                 padding: EdgeInsets.all(14),
-               
                 decoration: BoxDecoration(color: Colors.white,borderRadius: BorderRadius.circular(14)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -55,8 +54,7 @@ class AddMoney extends StatelessWidget {
                   ],
                 )
               ),
-           ),
-          
+           ),          
           SizedBox(
             height: 15,
           ),
@@ -83,7 +81,6 @@ class AddMoney extends StatelessWidget {
            SizedBox(
             height: 15,
           ),
-           
           Expanded(
             child: Container(
                           padding: EdgeInsets.all(14),
@@ -106,8 +103,7 @@ class AddMoney extends StatelessWidget {
           ),
            SizedBox(
             height: 15,
-          ),
-           
+          ),  
           Expanded(
             child: Container(
                         padding: EdgeInsets.all(14),
